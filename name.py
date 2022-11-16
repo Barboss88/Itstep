@@ -14,4 +14,4 @@ import datetime
 year_of_birgth=datetime.datetime(int(input("year of birgth: ")),int(input("month of birgth: ")),int(input("day of birgth: ")))
 current_day=datetime.datetime.now()
 how_olr_are_you=current_day-year_of_birgth
-print("Your age is: ", how_olr_are_you)
+print("Your age is: ", how_olr_are_you/365,'years')
