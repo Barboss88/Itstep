@@ -1,0 +1,1 @@
+print(f"Hello Ms {input('Input your name: ')}, I'm very glad to learn Python with you!")
