@@ -84,7 +84,7 @@ else:
 print(f"{name}'s medium rate is",medium_rate)
 #repass_dic=mark_dic[0].insert(int(input("Enter index position")),float(input("Enter new mark: ")))
 #print(repass_dic)
-
+# заплутався на етапі редагування списку оцінок, якщо їх розглядати у вигляді словника, як прописано у завданні
 
 k=input("Enter 1 to sort from low to high mark or 2 to sort from high to low: ")
 if (k == '1'):
